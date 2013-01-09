@@ -5,6 +5,7 @@
 
 a {
 	text-decoration: none;
+	color: #369;
 }
 
 section {	
@@ -86,9 +87,8 @@ header {
 	clear: both;
 	width: 829px;
 	height: 163px;
-	position: relative;
-	top: 6px;
-	left: 211px;
+	margin: 0 auto;
+	padding: 6px 0;
 	text-align: center;
 	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
 }
@@ -198,10 +198,10 @@ header h5 {
 
 .meet {
 	position: absolute;
-	top: 707px;
-	left: 90px;
-	width: 143px;
-	height: 117px;
+
+
+	margin-left: -125px;
+	margin-top: -100px;
 }
 
 .meet a {
