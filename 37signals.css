@@ -142,7 +142,6 @@ header h5 {
 	font-size: 14px;
 	line-height: 1.4em;
 	margin: 5px 0;
-	display: block;
 	-webkit-margin-before: 1em;
 	-webkit-margin-after: 1em;
 	-webkit-margin-start: 0px;
@@ -544,4 +543,81 @@ footer p {
 	margin-top: 50px;
 }
 
+a.hover-box {
+	box-shadow: 0 0 15px #333;
+}
 
+.hidden {
+	display: none;
+}
+
+div.extra {
+	clear: both;
+	width: 829px;
+	height: 163px;
+	margin: 0 auto;
+	padding: 6px 0;
+	text-align: center;
+	font-family: "CrimsonSemiBold", "Times New Roman", Georgia, serif;
+}
+
+.extra span {
+	color: #336699;
+	text-decoration: underline;
+}
+
+.extra h1 {
+	color: #222;
+	margin: 10px 0 15px 0;
+	font-size: 46px;
+	letter-spacing: -1px;
+	font-weight: 500;
+	font-style: normal;
+	clear: both;
+	line-height: 1.0em;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;	
+}
+
+.extra p {
+	font-size: 15px;
+	color: #222;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	text-align: center;
+}
+
+.right-arrow {
+	position: relative;
+	top: 5px;
+	right: 140px;
+	z-index: 1;
+}
+
+.right-arrow-b {
+	position: absolute;
+	top: 290px;
+	right: 510px;
+	z-index: 1;
+}
+
+.left-arrow {
+	position: absolute;
+	top: 290px;
+	right: 440px;
+	z-index: 1;
+}
+
+.pbox {
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	text-align: center;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding: 7px 0;
+	font-weight: bold;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e8e8e8));
+	color: #336699;
+}
